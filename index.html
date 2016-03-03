@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+	<title>电子表</title>
+	<style type="text/css">
+		.box{
+			margin: 120px auto;
+			width: 500px;
+			height: 80px;
+			box-shadow: 0px 0px 50px #F9F;
+			border-radius: 20px;
+		}
+		.num{
+			background: url(0-9.gif);
+			height: 38px;
+			width: 26px;
+			float: left;	
+		}
+		.dian{
+			background: url(0-9.gif);
+			background-position: bottom;
+			float: left;
+			height: 38px;
+			width: 26px;
+		}
+		.box2{
+			padding: 20px 0 0 0;
+		}
+	</style>
+	<script src="jquery.min.js"></script>
+	<script src="index.js"></script>
+</head>
+<body>
+	<div class="box">
+		<div class="box2">
+			<!-- 年份 -->
+			<div class="num"></div>
+			<div class="num"></div>
+			<div class="num"></div>
+			<div class="num"></div>
+
+			<!-- 月份 -->
+			<div class="dian"></div>
+			<div class="num"></div>
+			<div class="num"></div>
+
+			<!-- 日期 -->
+			<div class="dian"></div>
+			<div class="num"></div>
+			<div class="num"></div>
+
+			<!-- 时钟数 -->
+			<div class="dian"></div>
+			<div class="num"></div>
+			<div class="num"></div>
+
+			<!-- 分钟数 -->
+			<div class="dian"></div>
+			<div class="num"></div>
+			<div class="num"></div>
+
+			<!-- 秒数 -->
+			<div class="dian"></div>
+			<div class="num"></div>
+			<div class="num"></div>
+		</div>
+	</div>
+</body>
+</html>
